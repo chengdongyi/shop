@@ -18,8 +18,9 @@
 
     <modules>
         <module>shop-common</module>
+        <module>shop-server-user</module>
     </modules>
-
+<!--  shop-server-user -->
     <properties>
         <java.version>1.8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -28,6 +29,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
+        <mybatis.version>2.1.3</mybatis.version>
+        <druid.version>1.1.17</druid.version>
+        <fastjson.version>1.2.72</fastjson.version>
     </properties>
 
     <dependencyManagement>
